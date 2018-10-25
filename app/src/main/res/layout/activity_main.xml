@@ -9,16 +9,17 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/fra_a"
         android:name="es.pue.android.fragmenttest.FragmentA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.2" />
 
     <fragment
-        android:id="@+id/fragment2"
+        android:id="@+id/fra_b"
         android:name="es.pue.android.fragmenttest.FragmentB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.8" />
+
 </LinearLayout>
